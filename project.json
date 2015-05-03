@@ -1,0 +1,93 @@
+{
+	"name":"Shelter",
+	"short_name":"shelter2013",
+	"category":"Yamuna Monsoon Flooding 2013",
+	"description":"Answer the questions about dwellings that you see in the photos.",
+	"why":"With this project, we hope to extract data on the damage done to buildings and shelters during the 2013 flooding of the Yamuna river.",
+	"questions":[
+		{
+			"id":1,
+			"title":"Can you see a building or other shelter in the photo?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"dwelling"
+			},
+			"branch":[
+				{"no":"finish"}
+			]
+		},
+		{
+			"id":2,
+			"title":"Is the building or shelter affected by flood waters?",
+			"type":"single_choice",
+			"answer":{
+				"saved_as":"dwellingFlood",
+				"choices":[
+					{"Inundated":"Yes - waters have inundated dwellings"},
+					{"WashedAway":"Yes - waters appear to have washed away dwellings"},
+					{"No":"No"}
+				]
+			}
+		},
+		{
+			"id":3,
+			"title":"What is the function of the building?",
+			"type":"single_choice",
+			"answer":{
+				"saved_as":"dwellingType",
+				"choices":[
+					{"Private":"Private"},
+					{"Public":"Public"},
+					{"Religious":"Religious"},
+					{"Other":"Other"}
+				]
+			}
+		},
+		{
+			"id":4,
+			"title":"Is it a temporary building or shelter?",
+			"type":"single_choice",
+			"answer":{
+				"saved_as":"dwellingTemp",
+				"choices":[
+					{"Tent":"Tent"},
+					{"Hut":"Jhuggi/Hut"},
+					{"Other":"Other"},
+					{"No":"Not a temporary shelter"}
+				]
+			}
+		},
+		{
+			"id":5,
+			"title":"What is the construction style?",
+			"type":"single_choice",
+			"answer":{
+				"saved_as":"dwellingConstruction",
+				"choices":[
+					{"Pucca":"Pucca"},
+					{"SemiPucca":"Semi-Pucca"},
+					{"Kutcha":"Kutcha"}
+				]
+			}
+		},
+		{
+			"id":6,
+			"title":"What is the building or shelter made of?",
+			"hint":"If the building or shelter is made out of different materials, select all that apply.",
+			"type":"multiple_choice",
+			"answer":{
+				"saved_as":"dwellingMaterial",
+				"choices":[
+					{"FiredBricks":"Fired bricks"},
+					{"MudBricks":"Mud bricks"},
+					{"Concrete":"Concrete"},
+					{"Tarp":"Plastic tarpaulin"},
+					{"Plastic":"Plastic sheeting"},
+					{"Iron":"Corrugated iron sheets"},
+					{"Plant":"Woven plant material"},
+					{"Other":"Other"}
+				]
+			}
+		}
+	]
+}
