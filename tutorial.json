@@ -1,0 +1,63 @@
+{
+	"tutorial":[
+		{
+			"image":"http://static.sify.com/cms/image/kivsX7egcca.jpg",
+			"image_source":"http://www.sify.com/news/yamuna-swells-flood-threat-increases-in-delhi-news-national-kjwn4caeige.html",
+			"assertions":{
+				"1":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! There are shelters in this photo.",
+						"no":"Are you sure there are no buildings or shelters? Shelters may also be made of less permanent construction materials."
+					}
+				},
+				"2":{
+					"expects":"inundated",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"inundated":"Well done!That is the correct answer, The shelters in this photo have been inundated. They may have been damaged as well but we can't tell from this photo so the correct answer is that they are inundated.",
+						"washedaway":"Are you absolutely sure that parts of the shelters have been washed away? If you do not know what to look for, check out the help for more information."
+					}
+				},
+				"3":{
+					"expects":"private",
+					"default_message":"Are you sure that you can see anything that suggests this function? If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"private":"Well done! The shelters in this photo are most likely private.",
+						"unknown":"Try again. If you are not sure what to look for, check out the help for more information.",
+						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
+					}
+				},
+				"4":{
+					"expects":"hut",
+					"default_message":"Are you sure? Pay attention to the structure of the building and the materials it has been made with.",
+					"messages":{
+						"hut":"Correct! These shelters appear to be jhuggi, or huts.",
+						"unknown":"Try again. If you are not sure what to look for, check out the help for more information.",
+						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
+					}
+				},
+				"5":{
+					"expects":"kutcha",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"kutcha":"Well done! The shelters in this photo look like they are made up of relatively flimsy materials.",
+						"pucca":"Are you sure there are permanant materials in this shelter? Try searching for the materials in the provided help to see what they look like.",
+						"semipucca":"Are you sure there are permanant materials in this shelter? Try searching for the materials in the provided help to see what they look like."
+					}
+				},
+				"6":{
+					"expects":"unknown",
+					"default_message":"Are you sure you can see the selected materials in this photo? Try searching for photos of the materials to get an idea of what they look like.",
+					"messages":{
+						"unknown":"Well done! From this picture we cannot tell what materials the building is made out of.",
+						"none":"The shelters are made out of something. If you are not sure what to look for, check out the help for more information.",
+						"other":"Try again. If you are not sure what to look for, check out the help for more information.",
+						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
+					}
+				}
+			}
+		}
+	]
+}
