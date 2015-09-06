@@ -4,7 +4,7 @@
 			"image":"http://static.sify.com/cms/image/kivsX7egcca.jpg",
 			"image_source":"http://www.sify.com/news/yamuna-swells-flood-threat-increases-in-delhi-news-national-kjwn4caeige.html",
 			"assertions":{
-				"1":{
+				"dwelling":{
 					"expects":"yes",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -12,7 +12,7 @@
 						"no":"Are you sure there are no buildings or shelters? Shelters may also be made of less permanent construction materials."
 					}
 				},
-				"2":{
+				"dwellingFlood":{
 					"expects":"inundated",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -20,7 +20,7 @@
 						"washedaway":"Are you absolutely sure that parts of the shelters have been washed away? If you do not know what to look for, check out the help for more information."
 					}
 				},
-				"3":{
+				"dwellingType":{
 					"expects":"private",
 					"default_message":"Are you sure that you can see anything that suggests this function? If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -29,7 +29,7 @@
 						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"4":{
+				"dwellingTemp":{
 					"expects":"hut",
 					"default_message":"Are you sure? Pay attention to the structure of the building and the materials it has been made with.",
 					"messages":{
@@ -38,7 +38,7 @@
 						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"5":{
+				"dwellingConstruction":{
 					"expects":"kutcha",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -47,7 +47,7 @@
 						"semipucca":"Are you sure there are permanant materials in this shelter? Try searching for the materials in the provided help to see what they look like."
 					}
 				},
-				"6":{
+				"dwellingMaterial":{
 					"expects":"unknown",
 					"default_message":"Are you sure you can see the selected materials in this photo? Try searching for photos of the materials to get an idea of what they look like.",
 					"messages":{
