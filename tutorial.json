@@ -48,10 +48,10 @@
 					}
 				},
 				"dwellingMaterial":{
-					"expects":"unknown",
+					"expects":"notclear",
 					"default_message":"Are you sure you can see the selected materials in this photo? Try searching for photos of the materials to get an idea of what they look like.",
 					"messages":{
-						"unknown":"Well done! From this picture we cannot tell what materials the building is made out of.",
+						"notclear":"Well done! From this picture we cannot tell what materials the building is made out of.",
 						"none":"The shelters are made out of something. If you are not sure what to look for, check out the help for more information.",
 						"other":"Try again. If you are not sure what to look for, check out the help for more information.",
 						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
