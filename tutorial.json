@@ -16,7 +16,7 @@
 					"expects":"inundated",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
-						"inundated":"Well done!That is the correct answer, The shelters in this photo have been inundated. They may have been damaged as well but we can't tell from this photo so the correct answer is that they are inundated.",
+						"inundated":"Well done! That is the correct answer. The shelters in this photo have been inundated and may have been damaged as well however we can't tell from this photo.",
 						"washedaway":"Are you absolutely sure that parts of the shelters have been washed away? If you do not know what to look for, check out the help for more information."
 					}
 				},
@@ -49,12 +49,11 @@
 				},
 				"dwellingMaterial":{
 					"expects":"notclear",
-					"default_message":"Are you sure you can see the selected materials in this photo? Try searching for photos of the materials to get an idea of what they look like.",
+					"default_message":"Are you sure you can discern the selected materials in this photo?",
 					"messages":{
-						"notclear":"Well done! From this picture we cannot tell what materials the building is made out of.",
+						"notclear":"Well done! From this picture we cannot clearly tell what materials the building is made out of.",
 						"none":"The shelters are made out of something. If you are not sure what to look for, check out the help for more information.",
-						"other":"Try again. If you are not sure what to look for, check out the help for more information.",
-						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
+						"other":"Try again. If you are not sure what to look for, check out the help for more information."
 					}
 				}
 			}
